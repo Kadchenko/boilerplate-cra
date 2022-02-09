@@ -5,14 +5,13 @@
 # Stack
 
 - React
-- Redux (redux-saga, reselect)
-- react-router, react-router-config, react-router-dom
-- axios
-- formik
+- Redux
+- Axios
 - Styled-components
 - @loadable/component
-- typescript
-- craco (create react app config override), see https://github.com/gsoft-inc/craco
+- Typescript
+- Storybook
+- Craco (create react app config override), see https://github.com/gsoft-inc/craco
 
 # Folders structure
 
@@ -30,11 +29,8 @@ src/
 ├─ services/
 ├─ store/
    ├─ "entity"/
-       ├─ actions.ts
        ├─ slice.ts
        ├─ selectors.ts
-       ├─ sagas.ts
-       ├─ starships.ts
    ├─ index.tsx
 ├─ styled/
 ├─ utils/
