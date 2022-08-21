@@ -1,7 +1,7 @@
 import { createSelector } from 'reselect';
 
 import { RootState } from '@store';
-import { Starship } from '@/types/starships';
+import { Starship } from '@commonTypes/starships';
 
 const starshipsSelector = (state: RootState) => state.starships;
 const starshipsItemsSelector = (state: RootState) => state.starships.items;

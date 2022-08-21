@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 import { fetchStarships } from '@api/starships';
-import { ActionTypes, State } from '@/types/starships';
+import { ActionTypes, State } from '@commonTypes/starships';
 
 const initialState: State = {
   items: [],

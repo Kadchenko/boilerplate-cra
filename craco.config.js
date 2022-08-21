@@ -28,7 +28,8 @@ module.exports = {
       '@helpers': path.resolve(__dirname, './src/helpers/'),
       '@styled': path.resolve(__dirname, './src/styled/'),
       '@utils': path.resolve(__dirname, './src/utils/'),
-      '@services': path.resolve(__dirname, './src/services/')
+      '@services': path.resolve(__dirname, './src/services/'),
+      '@commonTypes': path.resolve(__dirname, './src/types/')
     }
   }
 };
