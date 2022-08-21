@@ -34,6 +34,7 @@ src/
    ├─ index.tsx
 ├─ styled/
 ├─ utils/
+├─ types/
 ...
 ```
 
